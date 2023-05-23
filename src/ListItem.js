@@ -3,6 +3,8 @@ import { toppings as topWin } from "./utils/toppings";
 import { toppings as topLin } from "./utils/toppingsLinux";
 import "./ListItem.css";
 import { Button } from '@mui/material';
+import {AiFillHome} from "react-icons/ai";
+import {Link} from 'react-router-dom';
 //const { exec } = require('child_process');
 
 export default function ListItem(props) {
@@ -80,6 +82,11 @@ export default function ListItem(props) {
       >
          {isClicked ? "Running...": "Attack!"}
       </Button> 
+      <Link style={{color: 'blue'}} to="/">
+        <Button style={{minWidth: '60px'}} variant="outlined" size="large" id='home'>
+          <AiFillHome/> 
+        </Button>
+      </Link>
     </div>
   );
 }

@@ -23,18 +23,18 @@ class Home extends React.Component {
         <br/>
         Select Your OS: 
       </h1>
-        <Box sx={{ width: '100%' }} className='selectos'>
-          <Link style={{color: 'blue'}} to="/windows">
-            <Button style={{minWidth: '150px'}} variant="outlined" size="large" className='buttonos'>
-              Windows
-            </Button>
-          </Link>
-          <Link style={{color: 'blue'}} to="/linux">
-            <Button style={{minWidth: '150px'}} variant="outlined" size="large" className='buttonos' >
-              Linux
-            </Button>
-          </Link>
-        </Box>
+      <Box sx={{ width: '100%' }} className='selectos'>
+        <Link style={{color: 'blue'}} to="/windows">
+          <Button style={{minWidth: '150px', color: '	#AFEEEE', fontFamily: 'Courier New', fontSize: '25px', fontWeight: 'bold'}} variant="outlined" size="large" className='buttonos'>
+            Windows
+          </Button>
+        </Link>
+        <Link style={{color: 'blue'}} to="/linux">
+          <Button style={{minWidth: '150px', color: '	#AFEEEE', fontFamily: 'Courier New', fontSize: '25px', fontWeight: 'bold'}} variant="outlined" size="large" className='buttonos' >
+            Linux
+          </Button>
+        </Link>
+      </Box>
       
     </div>
     );

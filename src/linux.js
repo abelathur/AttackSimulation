@@ -12,11 +12,11 @@ function Linux() {
       
       <ListItem device = {"linux"}/>
 
-      <Link style={{color: 'blue'}} to="/">
+      {/* <Link style={{color: 'blue'}} to="/">
         <Button style={{minWidth: '150px'}} variant="outlined" size="large" id='home'>
           <AiFillHome/> 
         </Button>
-      </Link>
+      </Link> */}
     
     </div>
   );

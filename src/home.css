@@ -1,13 +1,22 @@
+.home{
+    height: 97vh;
+    background: url(./images/bg3.jpg);
+    margin-top: -100px;
+}
 .selectos{
     position: absolute;
-    top: 50%;
+    top: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 150px;
+    font-weight: bold;
 }
 h1{
-    color: rgb(82, 82, 241);
+    color: rgb(71, 230, 230);
     text-align: center;
-    margin-top: 15%;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
 }
