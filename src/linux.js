@@ -5,7 +5,7 @@ import ListItem from './ListItem';
 import React from 'react';
 import './linux.css';
 
-function Linux() {
+function Linuxs() {
   
   return (
     <div className="linux">
