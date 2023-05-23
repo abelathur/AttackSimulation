@@ -5,15 +5,16 @@
 }
 .selectos{
     position: absolute;
-    top: 60%;
+    top: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 175px;
     font-weight: bold;
 }
 h1{
     color: rgb(71, 230, 230);
+    text-shadow: 4px 4px 8px darkcyan;
     text-align: center;
     justify-content: center;
     margin-top: 100px;

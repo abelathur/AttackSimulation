@@ -6,9 +6,9 @@ import SplashScreen from "./splash";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import './home.css';
-import Windows from './windows';
+//import Windows from './windows';
 import {Link, Route, Routes, BrowserRouter as Router} from 'react-router-dom';
-import Linux from './linux';
+//import Linux from './linux';
 
 class Home extends React.Component {
  render() {
@@ -25,12 +25,12 @@ class Home extends React.Component {
       </h1>
       <Box sx={{ width: '100%' }} className='selectos'>
         <Link style={{color: 'blue'}} to="/windows">
-          <Button style={{minWidth: '150px', color: '	#AFEEEE', fontFamily: 'Courier New', fontSize: '25px', fontWeight: 'bold'}} variant="outlined" size="large" className='buttonos'>
+          <Button style={{minWidth: '150px', color: 'darkturquoise', fontFamily: 'Courier New', fontSize: '40px', fontWeight: 'bold', background: '#252525'}} variant="outlined" size="large" className='buttonos'>
             Windows
           </Button>
         </Link>
         <Link style={{color: 'blue'}} to="/linux">
-          <Button style={{minWidth: '150px', color: '	#AFEEEE', fontFamily: 'Courier New', fontSize: '25px', fontWeight: 'bold'}} variant="outlined" size="large" className='buttonos' >
+          <Button style={{minWidth: '150px', color: 'darkturquoise', fontFamily: 'Courier New', fontSize: '40px', fontWeight: 'bold', background: '#252525'}} variant="outlined" size="large" className='buttonos' >
             Linux
           </Button>
         </Link>

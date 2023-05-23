@@ -73,7 +73,7 @@ export default function ListItem(props) {
         })}
       </ul>
       <Button 
-        style={{maxWidth: '150px'}} 
+        style={{maxWidth: '150px', fontFamily: 'courier new', color: 'darkturquoise'}} 
         variant="outlined" 
         size="large" 
         id='home'
@@ -83,7 +83,7 @@ export default function ListItem(props) {
          {isClicked ? "Running...": "Attack!"}
       </Button> 
       <Link style={{color: 'blue'}} to="/">
-        <Button style={{minWidth: '60px'}} variant="outlined" size="large" id='home'>
+        <Button style={{minWidth: '60px', color: 'darkturquoise'}} variant="outlined" size="large" id='home'>
           <AiFillHome/> 
         </Button>
       </Link>

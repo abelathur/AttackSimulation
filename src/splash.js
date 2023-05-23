@@ -4,8 +4,9 @@ import { connect } from "react-redux";
 import loadingSlice, { setLoading } from "./slices/LoadingSlice";
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
-import logo from './images/Screenshot 2023-05-01 at 6.58.41 PM.png'
+//import logo from './images/Screenshot 2023-05-01 at 6.58.41 PM.png'
 import './splash.css'
+import mylogo from './images/myLogo.jpg'
 
 
 const sleep = async (milliseconds) => {
@@ -26,7 +27,7 @@ class SplashScreen extends React.Component {
  return (
   <div key="splash-screen" className="splash-div">
    <div key="splash-screen-spinner" style={{ marginTop: "15px" }}>
-        <img src={logo} alt="Logo" class="flex-items" />;
+        <img src={mylogo} alt="Logo" class="flex-items" />;
         <Spinner animation="border" variant="primary" role="status" class="flex-items">
             <Box sx={{ width: '100%' }}>
                 <LinearProgress />
