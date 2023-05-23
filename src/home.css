@@ -1,0 +1,13 @@
+.selectos{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h1{
+    color: rgb(82, 82, 241);
+    text-align: center;
+    margin-top: 15%;
+}

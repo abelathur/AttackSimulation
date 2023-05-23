@@ -1,0 +1,18 @@
+.splash-div {
+    background-color: #060013;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.flex-items {
+    margin: 50px;
+    text-align: center;
+}
+img {
+    width: 350px;
+    height: 500px;
+}
