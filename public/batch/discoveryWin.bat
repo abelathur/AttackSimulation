@@ -14,3 +14,4 @@ netsh advfirewall firewall show rule name=all
 powershell.exe -ExecutionPolicy Bypass -C "Import-Module .\powerview.ps1 -Force;Get-NetDomain | ConvertTo-Json -Depth 1"
 powershell.exe -ExecutionPolicy Bypass -C "echo $(get-uac)"
 powershell.exe -ExecutionPolicy Bypass -C "netstat -anto;Get-NetTCPConnection"
+ping 127.0.0.1
