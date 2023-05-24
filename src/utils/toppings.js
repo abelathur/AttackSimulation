@@ -2,7 +2,7 @@ export const toppings = [
     {
       name: "Execution",
       price: "Adversary-controlled code running on a local or remote system, for exploring a network or stealing data",
-      file: "hello.bat"
+      file: "executionWin.bat"
     },
     {
       name: "Persistence",
